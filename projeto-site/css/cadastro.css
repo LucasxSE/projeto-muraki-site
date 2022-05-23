@@ -1,0 +1,70 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.grupo{
+    display: flex;
+    flex-direction: column;
+}
+
+.infos input{
+    width: 100%;
+    margin: 5px 0 20px 0;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+.infos input:hover{
+    border-color: #9bdefd;
+}
+
+.botoes{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-top: 15px;
+    border-top: 1px solid #aaa;
+}
+
+.botao{
+    width: 30%;
+    padding: 0.5rem;
+    background-color: rgb(214, 214, 214);
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 0.25rem;
+    font-weight: 500;
+}
+
+.botao-cadastrar{
+    color: rgb(3, 3, 3);
+    background-color: #a7b7db;
+}
+
+.botao-cadastrar:hover{
+    background-color: #dce4f8;
+}
+
+.botao-voltar:hover{
+    background-color: #adadad;
+}
